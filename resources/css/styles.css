@@ -1,0 +1,80 @@
+body {
+  font-family: "Helvetica" "Arial" "sans";
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin: 12px;
+  color: black;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 12px;
+  margin-top: -10px;
+  color: black;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.footer {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+
+.footer p {
+  margin-left: -50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: inline;
+  padding: 5px;
+}
+
+.center div {
+  margin-left: -100%;
+  margin-top: -25%;
+  text-align: center;
+}
+
+#hex {
+  background-color: #000;
+  width: 50%;
+  height: 100%;
+  float: left;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+#hex h1 {
+  color: white;
+}
+
+#xterm {
+  background-color: #FFF;
+  width: 50%;
+  height: 100%;
+  float: right;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+#xterm h1, #xterm h2 {
+  text-align: right;
+}
+
